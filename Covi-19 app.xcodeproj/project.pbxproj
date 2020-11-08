@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		CD2AD6D125587AF7009A1601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2AD6CF25587AF7009A1601 /* LaunchScreen.storyboard */; };
 		CD2AD6DC25587AF7009A1601 /* Covi_19_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2AD6DB25587AF7009A1601 /* Covi_19_appTests.swift */; };
 		CD2AD6E725587AF8009A1601 /* Covi_19_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2AD6E625587AF8009A1601 /* Covi_19_appUITests.swift */; };
+		CD2AD700255880E6009A1601 /* Japanese Temple Bell Small-SoundBible.com-113624364.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD2AD6FF255880E6009A1601 /* Japanese Temple Bell Small-SoundBible.com-113624364.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CD2AD6E225587AF7009A1601 /* Covi-19 appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Covi-19 appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2AD6E625587AF8009A1601 /* Covi_19_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covi_19_appUITests.swift; sourceTree = "<group>"; };
 		CD2AD6E825587AF8009A1601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2AD6FF255880E6009A1601 /* Japanese Temple Bell Small-SoundBible.com-113624364.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Japanese Temple Bell Small-SoundBible.com-113624364.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,6 @@
 				A10D0FE7907B6B7F6FBE4413 /* Pods-Covi-19 app.debug.xcconfig */,
 				C2CDF438DDDC52090AEB95BD /* Pods-Covi-19 app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -127,6 +128,7 @@
 				CD2AD6C425587AF2009A1601 /* AppDelegate.swift */,
 				CD2AD6C625587AF2009A1601 /* SceneDelegate.swift */,
 				CD2AD6C825587AF2009A1601 /* ViewController.swift */,
+				CD2AD6FF255880E6009A1601 /* Japanese Temple Bell Small-SoundBible.com-113624364.mp3 */,
 				CD2AD6CA25587AF2009A1601 /* Main.storyboard */,
 				CD2AD6CD25587AF7009A1601 /* Assets.xcassets */,
 				CD2AD6CF25587AF7009A1601 /* LaunchScreen.storyboard */,
@@ -261,6 +263,7 @@
 				CD2AD6D125587AF7009A1601 /* LaunchScreen.storyboard in Resources */,
 				CD2AD6CE25587AF7009A1601 /* Assets.xcassets in Resources */,
 				CD2AD6CC25587AF2009A1601 /* Main.storyboard in Resources */,
+				CD2AD700255880E6009A1601 /* Japanese Temple Bell Small-SoundBible.com-113624364.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -64,11 +64,24 @@
                                     <imageReference key="backgroundImage" image="hands.sparkles.fill" catalog="system" renderingMode="original"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="35" scale="large" weight="medium"/>
                                 </state>
+                                <connections>
+                                    <action selector="washHands:" destination="BYZ-38-t0r" eventType="touchUpInside" id="86l-Gw-CfD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="StatePicker" destination="iYa-Kf-rgF" id="kTH-dw-I2A"/>
+                        <outlet property="chart" destination="YIm-aN-NWc" id="lL6-MF-zfL"/>
+                        <outlet property="dailyCasesLabel" destination="Cpn-yK-daw" id="UIv-cB-JPn"/>
+                        <outlet property="dateLabel" destination="LXB-GY-wRY" id="vyA-R2-rgU"/>
+                        <outlet property="deathLabel" destination="tpt-ph-lfT" id="eLk-nx-uHU"/>
+                        <outlet property="handsButton" destination="fwE-5k-S3U" id="Oaf-h0-snQ"/>
+                        <outlet property="totalDeaths" destination="Lav-Dg-dar" id="GW9-Y3-elD"/>
+                        <outlet property="totalPositive" destination="eCV-fc-90h" id="aIR-Bn-73g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
